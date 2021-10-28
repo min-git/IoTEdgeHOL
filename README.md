@@ -51,6 +51,7 @@ Virtual machine의 생성 버튼 클릭
 
 아래 화면과 같이 Resource Group 선택, Virtual Machine name 입력 및 Username & Password를 입력하여 생성 합니다.
 보안을 고려하여 SSH public key를 선택하여 진행할 수 있습니다.
+
 [>> Azure Portal에서 Linux 가상 머신 만들기 참조 LINK](https://docs.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-portal#create-virtual-machine)
 ![image](https://user-images.githubusercontent.com/14192817/139299248-b9c80f8b-3a16-43f3-ad39-5c6ef1334d64.png)
 
@@ -63,6 +64,8 @@ VM 생성시 입력하였던 ID & Password를 활용하여 Linux VM에 접속합
 
 
 # 실습 3 - Ubuntu Linux VM에 IoT Edge Runtime 설치
+[>> IoT Edge Runtime 설치 참조 LINK](https://docs.microsoft.com/ko-kr/azure/iot-edge/how-to-provision-single-device-linux-symmetric?view=iotedge-2020-11&tabs=azure-portal)
+
 Ubuntu Linux 버전과 일치하는 리포지토리 구성을 설치합니다.
   ```bash
 curl https://packages.microsoft.com/config/ubuntu/18.04/multiarch/prod.list > ./microsoft-prod.list
