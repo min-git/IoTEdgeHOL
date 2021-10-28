@@ -1,4 +1,4 @@
-# IoTEdgeHOL
+# IoT Edge Hands-on Lab 실습
 IoT Edge 모듈 배포 Hands-on Lap 입니다.
 Ubuntu Linux VM상에 Azure IoT Edge를 설치하여 Edge 디바이스를 생성 합니다.
 생성된 Edge 디바이스 VM에 VSCode를 활용하여 소스코드를 컨테이너 이미지로 생성하여 배포 합니다.
