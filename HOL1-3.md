@@ -110,3 +110,5 @@ sudo systemctl restart iotedge
  ```
 
 [Hands-on Lab 4 ~ 5 바로가기](https://github.com/min-git/IoTEdgeHOL/blob/main/HOL4-5.md)
+
+[README 바로가기](https://github.com/min-git/IoTEdgeHOL/blob/main/README.md)
