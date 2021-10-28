@@ -1,3 +1,4 @@
+# Hands-on 실습 4 ~ 5 수행
 # 실습 4 - Container Registry 생성
 Azure Portal에서 리소스 생성을 진행합니다.
 
