@@ -53,6 +53,7 @@ Virtual machine의 생성 버튼 클릭
 보안을 고려하여 SSH public key를 선택하여 진행할 수 있습니다.
 
 [>> Azure Portal에서 Linux 가상 머신 만들기 참조 LINK](https://docs.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-portal#create-virtual-machine)
+
 ![image](https://user-images.githubusercontent.com/14192817/139299248-b9c80f8b-3a16-43f3-ad39-5c6ef1334d64.png)
 
 Cloud Shell을 통하여 생성된 Linux VM에 접속합니다.
