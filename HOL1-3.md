@@ -1,6 +1,6 @@
 
-# Hands-on 실습 1 ~ 3 수행 #
-# 실습 1 - IoT Hub에 Edge 디바이스 생성
+# Hands-on Lab 1 ~ 3 #
+# Lab 1 - IoT Hub에 Edge 디바이스 생성
 IoT Hub에 Edge 디바이스 등록을 진행합니다
 
 ![image](https://user-images.githubusercontent.com/14192817/139300912-fdc68578-88dd-4d71-8c99-3f39c246aa8d.png)
@@ -18,7 +18,7 @@ IoT Hub에 Edge 디바이스 등록을 진행합니다
 ![image](https://user-images.githubusercontent.com/14192817/139301221-4db9bc4a-2d50-42c1-911a-aec7a97760ec.png)
 
 
-# 실습 2 - Ubuntu Linux VM 생성
+# Lab 2 - Ubuntu Linux VM 생성
 IoT Edge 디바이스용으로 Ubuntu VM을 생성 합니다.
 
 Azure Portal에서 Create 아이콘 클릭
@@ -44,7 +44,7 @@ VM 생성시 입력하였던 ID & Password를 활용하여 Linux VM에 접속합
 ![image](https://user-images.githubusercontent.com/14192817/139300489-61f97004-e2f0-4aef-a588-8a969ae06cd4.png)
 
 
-# 실습 3 - Ubuntu Linux VM에 IoT Edge Runtime 설치
+# Lab 3 - Ubuntu Linux VM에 IoT Edge Runtime 설치
 [>> IoT Edge Runtime 설치 참조 LINK](https://docs.microsoft.com/ko-kr/azure/iot-edge/how-to-provision-single-device-linux-symmetric?view=iotedge-2020-11&tabs=azure-portal)
 
 Ubuntu Linux 버전과 일치하는 리포지토리 구성을 설치합니다.
@@ -108,3 +108,5 @@ Edge 데몬 재시작 명령어
  ```bash
 sudo systemctl restart iotedge
  ```
+
+[Hands-on Lab 4 ~ 5 ](https://github.com/min-git/IoTEdgeHOL/blob/main/HOL4-5.md)
