@@ -109,4 +109,4 @@ Edge 데몬 재시작 명령어
 sudo systemctl restart iotedge
  ```
 
-[Hands-on Lab 4 ~ 5 이동](https://github.com/min-git/IoTEdgeHOL/blob/main/HOL4-5.md)
+[Hands-on Lab 4 ~ 5 바로가기](https://github.com/min-git/IoTEdgeHOL/blob/main/HOL4-5.md)
