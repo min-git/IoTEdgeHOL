@@ -157,3 +157,5 @@ Edge VM에 접속하여 명령어를 통해서 전송되는 텔레메트리 데�
 ![image](https://user-images.githubusercontent.com/14192817/139311478-784ffa95-bd56-472a-9530-eaadea2ee2b4.png)
 
 [Hands-on Lab 1 ~ 3 바로가기](https://github.com/min-git/IoTEdgeHOL/blob/main/HOL1-3.md)
+
+[README 바로가기](https://github.com/min-git/IoTEdgeHOL/blob/main/README.md)
