@@ -44,6 +44,7 @@ View > Command Palette 메뉴를 실행하여 "Azure IoT Edge: New IoT Edge Solu
 ![image](https://user-images.githubusercontent.com/14192817/139306637-faae9446-ae65-47d7-825f-3b1955f8b76f.png)
 
 모듈 이름 입력 - SampleModule
+
 ![image](https://user-images.githubusercontent.com/14192817/139306695-b0a82987-166f-4c1e-9378-007e8dc76b54.png)
 
 도커 이미지 레지스트리 주소 입력 - localhost:5000 부분을 실습4에서 저장해둔 Login Server 주소로 변경
