@@ -1,5 +1,5 @@
-# Hands-on 실습 4 ~ 5 수행
-# 실습 4 - Container Registry 생성
+# Hands-on Lab 4 ~ 5 
+# Lab 4 - Container Registry 생성
 Azure Portal에서 리소스 생성을 진행합니다.
 
 ![image](https://user-images.githubusercontent.com/14192817/139304897-7b9da569-2b93-447e-b1a1-376994bc1693.png)
@@ -26,7 +26,7 @@ Registry name, Login Server, username, password를 복사하여 이후 진행을
 ![image](https://user-images.githubusercontent.com/14192817/139305379-79f01811-b73a-40cb-829c-a6ff35ec6874.png)
 
 
-# 실습 5 - Visual Studio Code를 활용하여 Edge 모듈 빌드 및 배포
+# Lab 5 - Visual Studio Code를 활용하여 Edge 모듈 빌드 및 배포
 [>> Visual Studio Code 활용 모듈 빌드 및 배포 참조 LINK](https://docs.microsoft.com/ko-kr/azure/iot-edge/tutorial-develop-for-linux?view=iotedge-2020-11#set-up-vs-code-and-tools)
 
 *** IoT Edge Runtime 버전 설정***
@@ -155,3 +155,5 @@ sudo iotedge logs SampleModule
 ```
 Edge VM에 접속하여 명령어를 통해서 전송되는 텔레메트리 데이터를 확인합니다.
 ![image](https://user-images.githubusercontent.com/14192817/139311478-784ffa95-bd56-472a-9530-eaadea2ee2b4.png)
+
+[Hands-on Lab 1 ~ 3 바로가기](https://github.com/min-git/IoTEdgeHOL/blob/main/HOL1-3.md)
