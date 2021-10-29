@@ -87,7 +87,7 @@ Install the Moby engine.
 **Edge 디바이스 Provision**
  ```bash
 sudo iotedge config mp --connection-string '실습1에서 저장하였던 Connection String 입력'
-sudo nano /etc/iotedge/config.yaml
+sudo nano /etc/aziot/config.toml
   ```
  Connection String 적용을 확인 합니다.
 
