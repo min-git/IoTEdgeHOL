@@ -13,11 +13,11 @@ Ubuntu Linux VM상에 Azure IoT Edge를 설치하여 Edge 디바이스를 생성
 
 # 사전 준비사항
 - IoT Hub 생성 완료
-- Git 설치
-- Visual Studio Code 설치
+- [Git 설치](https://git-scm.com/downloads)
+- [Visual Studio Code 설치](https://code.visualstudio.com/)
 - Visual Studio Code Extension 설치 (C#, Azure IoT Hub Toolkit, Azure IoT Edge)
-- .NET Core 설치
-- Docker Container Desktop 설치
+- [.NET Core 설치](https://dotnet.microsoft.com/download/dotnet)
+- [Docker Container Desktop 설치 교육목적](https://docs.docker.com/desktop/windows/install/)
 
 
 # Hands-on Lab
