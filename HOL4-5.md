@@ -54,8 +54,9 @@ View > Command Palette 메뉴를 실행하여 "Azure IoT Edge: New IoT Edge Solu
 도커 이미지 레지스트리 주소 입력 - localhost:5000 부분을 실습4에서 저장해둔 Login Server 주소로 변경
 ![image](https://user-images.githubusercontent.com/14192817/139306795-00f3d782-ebb3-4f4a-b4c0-fa59d2553ac9.png)
 
-Azure IoT Edge: Set Default IoT Edge Rumtime Version 선택
-![image](https://user-images.githubusercontent.com/14192817/139306966-aa018d63-6b0e-4b55-858c-cf9b25372ffb.png)
+View > Command Palette 메뉴를 실행하여 Azure IoT Edge: Set Default IoT Edge Rumtime Version 선택
+![image](https://user-images.githubusercontent.com/14192817/139307597-8db0df62-4ce7-4439-ab7a-ae0abf8e1d1a.png)
+
 
 Edge runtime 버전 선택 - 1.2
 ![image](https://user-images.githubusercontent.com/14192817/139307237-d6d1f7f2-8eb9-4cf2-936b-febf79a26b9d.png)
@@ -65,11 +66,12 @@ Edge runtime 버전 선택 - 1.2
 
 ***모듈 배포 대상 아키텍처 선택***
 View > Command Palette 메뉴를 실행하여 "Azure IoT Edge: set Default Target Platfrom Edge Solution" 선택
-![image](https://user-images.githubusercontent.com/14192817/139307597-8db0df62-4ce7-4439-ab7a-ae0abf8e1d1a.png)
+![image](https://user-images.githubusercontent.com/14192817/139306966-aa018d63-6b0e-4b55-858c-cf9b25372ffb.png)
 
 amd64 선택
 
 ![image](https://user-images.githubusercontent.com/14192817/139307683-b6390720-4057-4013-a485-1e6afac02c49.png)
+
 
 ***Container Registry 로그인***
 
