@@ -34,7 +34,7 @@ IoT Edge 모듈을 빌드하기 위한 로컬 디렉토리를 생성하고 해�
 
 *** IoT Edge 모듈 생성***
 View > Command Palette 메뉴를 실행하여 "Azure IoT Edge: New IoT Edge Solution" 선택
-![image](images/IoTEdge03.png)
+![image](images/IoTEdge_03.png)
 
 폴더 선택 화면이 나오면 모듈 코드 저장 위치를 생성하여 선택
 ![image](https://user-images.githubusercontent.com/14192817/139306503-67f4759b-097d-4777-b35d-fe0d882031cd.png)
