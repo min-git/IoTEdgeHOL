@@ -61,7 +61,7 @@ View > Command Palette 메뉴를 실행하여 Azure IoT Edge: Set Default IoT Ed
 Edge runtime 버전 선택 - 1.2
 ![image](https://user-images.githubusercontent.com/14192817/139307237-d6d1f7f2-8eb9-4cf2-936b-febf79a26b9d.png)
 
-진행 완료 후 .env 파일을 열어 Container Registry Username과 Password가 업데이트 되었는지 확인 합니다.
+진행 완료 후 .env 파일을 열어 Container Registry Username과 Password를 업데이트 합니다.
 ![image](https://user-images.githubusercontent.com/14192817/139307323-3777d53e-287b-47ea-920c-55609767a1d0.png)
 
 ***모듈 배포 대상 아키텍처 선택***
