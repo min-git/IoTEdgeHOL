@@ -18,7 +18,7 @@ Registry name은 중복을 허용하지 않으므로 이름 이니셜등을 통�
 
 ![image](https://user-images.githubusercontent.com/14192817/139305178-953c16b3-c63c-4b7a-9e87-431ee8c4c1a4.png)
 
-생성된 Container Registry에서 Setting > Access keys 메뉴로 이동합니다.
+생성된 Container Registry에서 설정 > 액세스 키 메뉴로 이동합니다.
 
 Admin user 버튼을 Enabled로 활성화 합니다.
 
