@@ -29,9 +29,12 @@ Registry name, Login Server, username, password를 복사하여 이후 진행을
 # Lab 5 - Visual Studio Code를 활용하여 Edge 모듈 빌드 및 배포
 [>> Visual Studio Code 활용 모듈 빌드 및 배포 참조 LINK](https://docs.microsoft.com/ko-kr/azure/iot-edge/tutorial-develop-for-linux?view=iotedge-2020-11#set-up-vs-code-and-tools)
 
-*** IoT Edge Runtime 버전 설정***
+IoT Edge 모듈을 빌드하기 위한 로컬 디렉토리를 생성하고 해당 디렉토리로 이동하여 Visual Studio Code를 실행 합니다.
+![image](images/IoTEdge_VSC_02.png)
+
+*** IoT Edge 모듈 생성***
 View > Command Palette 메뉴를 실행하여 "Azure IoT Edge: New IoT Edge Solution" 선택
-![image](images/IoTEdge01.png)
+![image](images/IoTEdge03.png)
 
 폴더 선택 화면이 나오면 모듈 코드 저장 위치를 생성하여 선택
 ![image](https://user-images.githubusercontent.com/14192817/139306503-67f4759b-097d-4777-b35d-fe0d882031cd.png)
