@@ -66,22 +66,22 @@ sudo cp ./microsoft.gpg /etc/apt/trusted.gpg.d/
 **컨테이너 엔진 설치**
 패키지 목록 업데이트
  ```bash
-    sudo apt-get update
+sudo apt-get update
  ```
  
  컨테이너 Moby 엔진 설치
 Install the Moby engine.
    ```bash
-   sudo apt-get install moby-engine
+sudo apt-get install moby-engine
   ```
 
 
 **IoT Runtime 설치**
 
  ```bash
-   sudo apt-get update
-   apt list -a aziot-edge aziot-identity-service
-   sudo apt-get install aziot-edge
+sudo apt-get update
+apt list -a aziot-edge aziot-identity-service
+sudo apt-get install aziot-edge
  ```
 
 **Edge 디바이스 Provision**
@@ -93,7 +93,7 @@ sudo nano /etc/aziot/config.toml
 
 설정 파일의 변경 사항을 적용합니다.
  ```bash
- sudo iotedge config apply
+sudo iotedge config apply
  ```
 
 **Edge 설치 확인**
