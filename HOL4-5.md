@@ -32,7 +32,7 @@ Registry name, Login Server, username, password를 복사하여 이후 진행을
 IoT Edge 모듈을 빌드하기 위한 로컬 디렉토리를 생성하고 해당 디렉토리로 이동하여 Visual Studio Code를 실행 합니다.
 ![image](images/IoTEdge_VSC_02.png)
 
-*** IoT Edge 모듈 생성***
+### IoT Edge 모듈 생성
 View > Command Palette 메뉴를 실행하여 "Azure IoT Edge: New IoT Edge Solution" 선택
 ![image](images/IoTEdge_03.png)
 
@@ -64,7 +64,7 @@ Edge runtime 버전 선택 - 1.2
 진행 완료 후 .env 파일을 열어 Container Registry Username과 Password를 업데이트 합니다.
 ![image](https://user-images.githubusercontent.com/14192817/139307323-3777d53e-287b-47ea-920c-55609767a1d0.png)
 
-***모듈 배포 대상 아키텍처 선택***
+### 모듈 배포 대상 아키텍처 선택
 View > Command Palette 메뉴를 실행하여 "Azure IoT Edge: set Default Target Platfrom Edge Solution" 선택
 ![image](https://user-images.githubusercontent.com/14192817/139306966-aa018d63-6b0e-4b55-858c-cf9b25372ffb.png)
 
@@ -73,7 +73,7 @@ amd64 선택
 ![image](https://user-images.githubusercontent.com/14192817/139307683-b6390720-4057-4013-a485-1e6afac02c49.png)
 
 
-***Container Registry 로그인***
+### Container Registry 로그인
 
 터미널을 실행 합니다.
 
@@ -97,7 +97,7 @@ docker login -u <ACR username> -p <ACR password> <ACR login server>
 ![image](https://user-images.githubusercontent.com/14192817/139308583-d7a831c2-077c-4cd2-930e-8303a5c4a641.png)
 
 
-***모듈 빌드 및 푸쉬 로그인***
+### 모듈 빌드 및 푸쉬 로그인
 
 deployment.template.json을 마우스 우클릭하여 "Build and Push IoT Edge Solution"을 실행합니다.
 
@@ -106,6 +106,50 @@ deployment.template.json을 마우스 우클릭하여 "Build and Push IoT Edge S
 config 폴더 아래 생성된 deployment.amd64.json 파일을 열어 배포할 SampleModule의 버전 등을 확인 합니다.
 
 ![image](https://user-images.githubusercontent.com/14192817/139309055-8f8c18bd-b850-4144-9a6f-b2ea6da5c93d.png)
+
+Azure Portal의 Container Registry의 "서비스 > 리포지토리" 메뉴에서 samplemodule을 클릭하여 0.0.1버전의 모듈을 확인 합니다.
+
+![image](images/ACR_01.png)
+
+
+### Edge 디바이스에 모듈 배포
+
+배포 대상 Edge 디바이스를 우클릭하여 “Create Deployment for Single Device” 선택합니다.
+
+![image](https://user-images.githubusercontent.com/14192817/139310537-60745e57-08c3-4b85-a553-ca06f9cf278f.png)
+
+배포 Json 파일 선택 화면에서 config 폴더 아래의 deployment.amd64.json 파일을 선택합니다.
+
+![image](https://user-images.githubusercontent.com/14192817/139310577-f6bbe9c9-ba5b-4909-b05f-8172273a8cf7.png)
+
+Edge 디바이스에 모듈 배포 상황을 VS Code에서 확인할 수 있습니다. (배포시 정상 실행까지 지연 시간이 있습니다.)
+
+![image](https://user-images.githubusercontent.com/14192817/139310820-952fefc2-dc50-4468-8464-ffd65185d3e9.png)
+
+Edge VM에 접속하여 명령어를 통해 배포된 모듈을 확인할 수 있습니다.
+```bash
+sudo iotedge list
+```
+![image](https://user-images.githubusercontent.com/14192817/139310949-a80761ad-67e8-46d1-830c-d9ce4ce85a45.png)
+
+
+### 디바이스 메시지 확인
+
+Edge 디바이스를 마우스 우클릭하여 "Start Monitoring Built-in Event Endpoint" 실행합니다.
+
+![image](https://user-images.githubusercontent.com/14192817/139311278-019a4633-d26d-47be-9d12-c9cae5be0059.png)
+
+터미널 출력 창에서 Edge 디바이스에서 전송하는 텔레메트리 데이터를 확인합니다.
+
+![image](https://user-images.githubusercontent.com/14192817/139311399-a4603ad5-a5db-4814-a64a-910734639d41.png)
+```bash
+sudo iotedge logs SampleModule
+```
+Edge VM에 접속하여 명령어를 통해서 전송되는 텔레메트리 데이터를 확인합니다.
+![image](https://user-images.githubusercontent.com/14192817/139311478-784ffa95-bd56-472a-9530-eaadea2ee2b4.png)
+
+
+### IoT Edge 모듈 버전 업데이트 및 배포
 
 module.json 파일을 열어 모듈 변경 테스트를 위해 소스코드 변경을 가정하여 모듈 패치 버전을 0.0.2로 업데이트 합니다.
 
