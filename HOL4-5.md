@@ -31,7 +31,7 @@ Registry name, Login Server, username, password를 복사하여 이후 진행을
 
 *** IoT Edge Runtime 버전 설정***
 View > Command Palette 메뉴를 실행하여 "Azure IoT Edge: New IoT Edge Solution" 선택
-![image](https://user-images.githubusercontent.com/14192817/139306052-352ed5c0-8682-4662-9da0-a930ad4584a4.png)
+![image](images\IoTEdge01.png)
 
 폴더 선택 화면이 나오면 모듈 코드 저장 위치를 생성하여 선택
 ![image](https://user-images.githubusercontent.com/14192817/139306503-67f4759b-097d-4777-b35d-fe0d882031cd.png)
