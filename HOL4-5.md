@@ -130,7 +130,7 @@ Edge VM에 접속하여 명령어를 통해 배포된 모듈을 확인할 수 �
 ```bash
 sudo iotedge list
 ```
-![image](https://user-images.githubusercontent.com/14192817/139310949-a80761ad-67e8-46d1-830c-d9ce4ce85a45.png)
+![image](images/ACR_01.png)
 
 
 ### 디바이스 메시지 확인
