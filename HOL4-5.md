@@ -142,10 +142,13 @@ Edge 디바이스를 마우스 우클릭하여 "Start Monitoring Built-in Event 
 터미널 출력 창에서 Edge 디바이스에서 전송하는 텔레메트리 데이터를 확인합니다.
 
 ![image](https://user-images.githubusercontent.com/14192817/139311399-a4603ad5-a5db-4814-a64a-910734639d41.png)
+
+Edge VM에 접속하여 명령어를 통해서 전송되는 텔레메트리 데이터를 확인합니다.
+
 ```bash
 sudo iotedge logs SampleModule
 ```
-Edge VM에 접속하여 명령어를 통해서 전송되는 텔레메트리 데이터를 확인합니다.
+
 ![image](https://user-images.githubusercontent.com/14192817/139311478-784ffa95-bd56-472a-9530-eaadea2ee2b4.png)
 
 
@@ -184,9 +187,11 @@ Edge 디바이스에 모듈 배포 상황을 VS Code에서 확인할 수 있습�
 ![image](https://user-images.githubusercontent.com/14192817/139310820-952fefc2-dc50-4468-8464-ffd65185d3e9.png)
 
 Edge VM에 접속하여 명령어를 통해 배포된 모듈을 확인할 수 있습니다.
+
 ```bash
 sudo iotedge list
 ```
+
 ![image](https://user-images.githubusercontent.com/14192817/139310949-a80761ad-67e8-46d1-830c-d9ce4ce85a45.png)
 
 
@@ -199,10 +204,14 @@ Edge 디바이스를 마우스 우클릭하여 "Start Monitoring Built-in Event 
 터미널 출력 창에서 Edge 디바이스에서 전송하는 텔레메트리 데이터를 확인합니다.
 
 ![image](https://user-images.githubusercontent.com/14192817/139311399-a4603ad5-a5db-4814-a64a-910734639d41.png)
+
+
+Edge VM에 접속하여 명령어를 통해서 전송되는 텔레메트리 데이터를 확인합니다.
+
 ```bash
 sudo iotedge logs SampleModule
 ```
-Edge VM에 접속하여 명령어를 통해서 전송되는 텔레메트리 데이터를 확인합니다.
+
 ![image](https://user-images.githubusercontent.com/14192817/139311478-784ffa95-bd56-472a-9530-eaadea2ee2b4.png)
 
 [Hands-on Lab 1 ~ 3 바로가기](https://github.com/min-git/IoTEdgeHOL/blob/main/HOL1-3.md)
