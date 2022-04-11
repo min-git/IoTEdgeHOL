@@ -101,9 +101,10 @@ sudo iotedge config apply
 서비스 실행 확인
 ```bash
 sudo iotedge system status
+ ```
+```bash
 sudo iotedge list
  ```
-
 
 [Hands-on Lab 4 ~ 5 바로가기](https://github.com/min-git/IoTEdgeHOL/blob/main/HOL4-5.md)
 
