@@ -50,6 +50,9 @@ VM 생성시 입력하였던 ID & Password를 활용하여 Linux VM에 접속합
 Ubuntu Linux 버전과 일치하는 리포지토리 구성을 설치합니다.
   ```bash
 curl https://packages.microsoft.com/config/ubuntu/18.04/multiarch/prod.list > ./microsoft-prod.list
+wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
  ```
 
 생성된 목록을 sources.list.d 디렉터리에 복사합니다.
