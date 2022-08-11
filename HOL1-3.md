@@ -52,42 +52,41 @@ VM 생성시 입력하였던 ID & Password를 활용하여 Linux VM에 접속합
 
 Ubuntu Linux 버전과 일치하는 리포지토리 구성을 설치합니다.
   ```bash
-curl https://packages.microsoft.com/config/ubuntu/18.04/multiarch/prod.list > ./microsoft-prod.list
 wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
 rm packages-microsoft-prod.deb
  ```
 
-생성된 목록을 sources.list.d 디렉터리에 복사합니다.
-```bash
-sudo cp ./microsoft-prod.list /etc/apt/sources.list.d/
- ```
-
-Microsoft GPG public key를 설치합니다.
- ```bash
-curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-sudo cp ./microsoft.gpg /etc/apt/trusted.gpg.d/
- ```
-
 **컨테이너 엔진 설치**
-패키지 목록 업데이트
- ```bash
-sudo apt-get update
- ```
- 
+
  컨테이너 Moby 엔진 설치
 Install the Moby engine.
    ```bash
-sudo apt-get install moby-engine
+sudo apt-get update; \
+  sudo apt-get install moby-engine
   ```
 
+Moby 엔진이 성공적으로 설치되면 로깅 드라이버를 로깅 메커니즘으로 사용하도록local 구성합니다.
+   ```bash
+sudo nano /etc/docker/daemon.json
+  ```
+
+아래 내용을 daemon.json에 업데이트 합니다.
+   ```bash
+{
+      "log-driver": "local"
+}
+  ```
+![image](https://github.com/min-git/IoTEdgeHOL/blob/main/images/demon.jpg)
+
+Moby 컨테이너 엔진 설치 오류 발생시 기술 문서의 가이드 내용을 참조 합니다.
+[>> IoT Edge Runtime 설치 참조 LINK](https://docs.microsoft.com/ko-kr/azure/iot-edge/how-to-provision-single-device-linux-symmetric?view=iotedge-2020-11&tabs=azure-portal)
 
 **IoT Runtime 설치**
 
  ```bash
-sudo apt-get update
-apt list -a aziot-edge aziot-identity-service
-sudo apt-get install aziot-edge
+sudo apt-get update; \
+  sudo apt-get install aziot-edge defender-iot-micro-agent-edge
  ```
 
 **Edge 디바이스 Provision**
@@ -108,6 +107,18 @@ sudo iotedge config apply
 ```bash
 sudo iotedge system status
  ```
+ 
+서비스 문제 발생시 로그 검색
+```bash
+sudo iotedge system logs
+ ```
+ 
+디바이스 구성과 연결상태 확인
+```bash
+sudo iotedge check
+ ```
+ 
+실행중인 모듈 확인 (초기 시작시 edgeAgent 모듈만 실행됨)
 ```bash
 sudo iotedge list
  ```
