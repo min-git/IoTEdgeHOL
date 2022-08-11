@@ -214,6 +214,15 @@ sudo iotedge logs SampleModule
 
 ![image](https://user-images.githubusercontent.com/14192817/139311478-784ffa95-bd56-472a-9530-eaadea2ee2b4.png)
 
+
+***리소스 정리***
+
+요금이 발생하지 않도록 로컬 구성 및 Azure 리소스를 삭제 합니다.
+
+![image](https://github.com/min-git/IoTEdgeHOL/blob/main/images/resource_del_01.jpg)
+![image](https://github.com/min-git/IoTEdgeHOL/blob/main/images/resource_del_02.jpg)
+
+
 [Hands-on Lab 1 ~ 3 바로가기](https://github.com/min-git/IoTEdgeHOL/blob/main/HOL1-3.md)
 
 [README 바로가기](https://github.com/min-git/IoTEdgeHOL/blob/main/README.md)
