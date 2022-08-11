@@ -34,14 +34,17 @@ Virtual machine의 생성 버튼 클릭
 
 [>> Azure Portal에서 Linux 가상 머신 만들기 참조 LINK](https://docs.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-portal#create-virtual-machine)
 
-![image](https://user-images.githubusercontent.com/14192817/139299248-b9c80f8b-3a16-43f3-ad39-5c6ef1334d64.png)
+![image](https://github.com/min-git/IoTEdgeHOL/blob/main/images/VM01.jpg)
+
+생성된 VM 화면에서 접속 IP를 확인합니다.
+![image](https://github.com/min-git/IoTEdgeHOL/blob/main/images/VM02-IP.jpg)
 
 Cloud Shell을 통하여 생성된 Linux VM에 접속합니다.
 https://shell.azure.com/ 접속 혹은 Azure Portal에서 아이콘 클릭하여 접속합니다.
 ![image](https://user-images.githubusercontent.com/14192817/139300185-432cc299-d89c-42db-8dd7-3f4a3be54efb.png)
 
 VM 생성시 입력하였던 ID & Password를 활용하여 Linux VM에 접속합니다.
-![image](https://user-images.githubusercontent.com/14192817/139300489-61f97004-e2f0-4aef-a588-8a969ae06cd4.png)
+![image](https://github.com/min-git/IoTEdgeHOL/blob/main/images/VM03-bash.jpg)
 
 
 # Lab 3 - Ubuntu Linux VM에 IoT Edge Runtime 설치
