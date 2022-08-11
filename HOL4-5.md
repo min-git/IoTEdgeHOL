@@ -218,6 +218,7 @@ sudo iotedge logs SampleModule
 ***리소스 정리***
 
 요금이 발생하지 않도록 로컬 구성 및 Azure 리소스를 삭제 합니다.
+리소스 그룹에서 삭제 진행합니다.
 
 ![image](https://github.com/min-git/IoTEdgeHOL/blob/main/images/resource_del_01.jpg)
 ![image](https://github.com/min-git/IoTEdgeHOL/blob/main/images/resource_del_02.jpg)
