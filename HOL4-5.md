@@ -139,6 +139,12 @@ Edge 디바이스를 마우스 우클릭하여 "Start Monitoring Built-in Event 
 
 ![image](https://user-images.githubusercontent.com/14192817/139311278-019a4633-d26d-47be-9d12-c9cae5be0059.png)
 
+IoT Hub의 기존 제공 endpoint를 확인하여 입력합니다.
+
+![image](images/iotedge-001.png)
+
+![image](images/iotedge-002.png)
+
 터미널 출력 창에서 Edge 디바이스에서 전송하는 텔레메트리 데이터를 확인합니다.
 
 ![image](https://user-images.githubusercontent.com/14192817/139311399-a4603ad5-a5db-4814-a64a-910734639d41.png)
