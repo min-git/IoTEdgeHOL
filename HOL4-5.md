@@ -88,7 +88,7 @@ docker login -u <ACR username> -p <ACR password> <ACR login server>
 
 Azure Container Registry에 로그인 합니다.
 ```bash
-docker login -u <ACR username> -p <ACR password> <ACR login server>
+az acr login -n <ACR login server>
 ```
 ![image](https://user-images.githubusercontent.com/14192817/139308747-5638680d-98e6-4356-9ea1-3564ffe03030.png)
 
